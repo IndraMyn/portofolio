@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/portofolio/static/css/main.81c09a30.chunk.css",
+    "main.js": "/portofolio/static/js/main.f71cc899.chunk.js",
+    "main.js.map": "/portofolio/static/js/main.f71cc899.chunk.js.map",
+    "runtime-main.js": "/portofolio/static/js/runtime-main.5e29eb01.js",
+    "runtime-main.js.map": "/portofolio/static/js/runtime-main.5e29eb01.js.map",
+    "static/css/2.25d8efc1.chunk.css": "/portofolio/static/css/2.25d8efc1.chunk.css",
+    "static/js/2.8b590ec7.chunk.js": "/portofolio/static/js/2.8b590ec7.chunk.js",
+    "static/js/2.8b590ec7.chunk.js.map": "/portofolio/static/js/2.8b590ec7.chunk.js.map",
+    "static/js/3.93d5400a.chunk.js": "/portofolio/static/js/3.93d5400a.chunk.js",
+    "static/js/3.93d5400a.chunk.js.map": "/portofolio/static/js/3.93d5400a.chunk.js.map",
+    "static/js/4.f6cb0755.chunk.js": "/portofolio/static/js/4.f6cb0755.chunk.js",
+    "static/js/4.f6cb0755.chunk.js.map": "/portofolio/static/js/4.f6cb0755.chunk.js.map",
+    "static/js/5.2d517b68.chunk.js": "/portofolio/static/js/5.2d517b68.chunk.js",
+    "static/js/5.2d517b68.chunk.js.map": "/portofolio/static/js/5.2d517b68.chunk.js.map",
+    "index.html": "/portofolio/index.html",
+    "precache-manifest.450b28855e93bc38994616ff7d46673b.js": "/portofolio/precache-manifest.450b28855e93bc38994616ff7d46673b.js",
+    "service-worker.js": "/portofolio/service-worker.js",
+    "static/css/2.25d8efc1.chunk.css.map": "/portofolio/static/css/2.25d8efc1.chunk.css.map",
+    "static/css/main.81c09a30.chunk.css.map": "/portofolio/static/css/main.81c09a30.chunk.css.map",
+    "static/js/2.8b590ec7.chunk.js.LICENSE.txt": "/portofolio/static/js/2.8b590ec7.chunk.js.LICENSE.txt",
+    "static/js/3.93d5400a.chunk.js.LICENSE.txt": "/portofolio/static/js/3.93d5400a.chunk.js.LICENSE.txt",
+    "static/media/absensi_perusahaan.jpeg": "/portofolio/static/media/absensi_perusahaan.f4e86576.jpeg",
+    "static/media/absensi_sekolah.jpeg": "/portofolio/static/media/absensi_sekolah.febdbcb3.jpeg",
+    "static/media/achievement1.jpeg": "/portofolio/static/media/achievement1.a17a09af.jpeg",
+    "static/media/avatar.jpeg": "/portofolio/static/media/avatar.f2065a29.jpeg",
+    "static/media/not_found.svg": "/portofolio/static/media/not_found.22b08523.svg",
+    "static/media/online_shop.jpeg": "/portofolio/static/media/online_shop.b7766954.jpeg",
+    "static/media/profile_details.svg": "/portofolio/static/media/profile_details.d53385ac.svg",
+    "static/media/resume.jpeg": "/portofolio/static/media/resume.b1a664ff.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e29eb01.js",
+    "static/css/2.25d8efc1.chunk.css",
+    "static/js/2.8b590ec7.chunk.js",
+    "static/css/main.81c09a30.chunk.css",
+    "static/js/main.f71cc899.chunk.js"
+  ]
+}
