@@ -1,8 +1,12 @@
 import React from 'react'
 import { Jumbotron, Container, Row, Col } from 'reactstrap'
-import Avatar from '../Assets/Avatar/avatar.jpeg'
+import Avatar from '../Assets/Avatar/avatar.png'
+import content from "../content.json";
 
 function JumbotronComponent(props) {
+
+    const { profile } = content;
+
     return(
         <>
             <Jumbotron fluid className="text-white" style={{background: '#242526'}}>
@@ -13,8 +17,8 @@ function JumbotronComponent(props) {
                         </Col>
                         <Col xs="6" lg="4" className="mt-lg-4 mt-3">
                             <b className="lead">Hello There!</b>
-                            <h1 className="display-3 head-style">I am Indra</h1>
-                            <p style={{color: '#61dafb'}}>Web Developer</p>
+                            <h1 className="display-3 head-style">I am {profile.nickname}</h1>
+                            <p style={{color: '#61dafb'}}>{profile.role}</p>
                         </Col>
                     </Row>
                 </Container>

@@ -9,7 +9,7 @@ function CardAchievementComponent(props) {
         <>
             <Card style={{background: '#242526', borderRadius: '10px'}}>
                 <CardHeader className="text-white text-center"> {title} </CardHeader>
-                <CardImg src={thumbnail} />
+                <CardImg src={thumbnail} style={{ width: "100%", height: 100, objectFit: "cover" }}  />
                 <CardBody className="text-white">
                     <small>{text}</small>
                 </CardBody>

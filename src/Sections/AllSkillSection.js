@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { TabContent, TabPane, Nav, NavItem, NavLink,  Row, Col, Container } from 'reactstrap';
 import CardSkillComponent from '../Components/CardSkillComponent'
-import { faBootstrap, faCss3, faFreeCodeCamp, faHtml5, faJs, faLaravel, faNode, faNodeJs, faPhp, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faBootstrap, faCss3, faFreeCodeCamp, faHtml5, faJs, faLaravel, faNode, faNodeJs, faPhp, faReact, faGitAlt } from '@fortawesome/free-brands-svg-icons'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 function AllSkillSection(props) {
@@ -55,22 +55,10 @@ function AllSkillSection(props) {
                             <TabPane tabId="1">
                                 <Row>
                                     <Col xs="6" lg="3" className="mb-3">
-                                        <CardSkillComponent icon={{icon: faHtml5, style: {color: '#e34c26'}}} name="HTML" value="80" />
-                                    </Col>
-                                    <Col xs="6" lg="3" className="mb-3">
-                                        <CardSkillComponent icon={{icon: faCss3, style: {color: '#264de4'}}} name="CSS" value="60" />
-                                    </Col>
-                                    <Col xs="6" lg="3" className="mb-3">
-                                        <CardSkillComponent icon={{icon: faJs, style: {color: '#f0db4f'}}} name="JavaScript" value="75" />
-                                    </Col>
-                                    <Col xs="6" lg="3" className="mb-3">
-                                        <CardSkillComponent icon={{icon: faPhp, style: {color: '#474A8A'}}} name="PHP" value="85" />
-                                    </Col>
-                                    <Col xs="6" lg="3" className="mb-3">
-                                        <CardSkillComponent icon={{icon: faBootstrap, style: {color: '#553c7b'}}} name="Bootstrap" value="80" />
-                                    </Col>
-                                    <Col xs="6" lg="3" className="mb-3">
                                         <CardSkillComponent icon={{icon: faReact, style: {color: '#61DBFB'}}} name="React Js" value="90" />
+                                    </Col>
+                                    <Col xs="6" lg="3" className="mb-3">
+                                        <CardSkillComponent icon={{icon: faReact, style: {color: '#61DBFB'}}} name="React Native" value="90" />
                                     </Col>
                                     <Col xs="6" lg="3" className="mb-3">
                                         <CardSkillComponent icon={{icon: faNode, style: {color: '#68A063'}}} name="Node Js" value="80" />
@@ -85,7 +73,13 @@ function AllSkillSection(props) {
                                         <CardSkillComponent icon={{icon: faLaravel, style: {color: '#F05340 '}}} name="Laravel" value="30" />
                                     </Col>
                                     <Col xs="6" lg="3" className="mb-3">
+                                        <CardSkillComponent icon={{icon: faLaravel, style: {color: '#F05340 '}}} name=".NET" value="30" />
+                                    </Col>
+                                    <Col xs="6" lg="3" className="mb-3">
                                         <CardSkillComponent icon={{icon: faDatabase, style: {color: '#00758F '}}} name="Mysql" value="80" />
+                                    </Col>
+                                    <Col xs="6" lg="3" className="mb-3">
+                                        <CardSkillComponent icon={{icon: faGitAlt, style: {color: '#9e4209 '}}} name="Git" value="80" />
                                     </Col>
                                 </Row>
                             </TabPane>

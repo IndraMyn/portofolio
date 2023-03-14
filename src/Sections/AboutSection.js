@@ -1,11 +1,15 @@
 import React from 'react'
 import { Container, Row, Col, Card, CardBody, Label, FormGroup, Button } from 'reactstrap'
-import { faAddressCard, faEnvelope, faPhone, faTag, faUserTag } from '@fortawesome/free-solid-svg-icons'
+import { faAddressCard, faEnvelope, faPhone, faUserTag } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import ProfileDetails from '../Assets/Illustration/profile_details.svg'
 import Resume from '../Assets/Resume/resume.pdf'
+import content from "../content.json";
 
 function AboutSection(props) {
+
+    const { profile } = content;
+
     return(
         <>
             <Container>
@@ -23,31 +27,25 @@ function AboutSection(props) {
                                     <Col xs="12" lg="12">
                                         <FormGroup>
                                             <Label className="text-blue"><FontAwesomeIcon icon={faUserTag} /> Description</Label>
-                                            <small><p>Hello I am Indra Mulyawan. I'm a web developer. I have the ability to solve problems as well as a strong desire to learn something. I have experience in web programming for about 3 years. I can also work in a team and also be under pressure. In the future, I will also study and explore mobile programming</p></small>
-                                        </FormGroup>
-                                    </Col>
-                                    <Col xs="12" lg="12">
-                                        <FormGroup>
-                                            <Label className="text-blue"><FontAwesomeIcon icon={faTag} /> Age</Label>
-                                            <small><p>18 years</p></small>
+                                            <small><p>{profile.description}</p></small>
                                         </FormGroup>
                                     </Col>
                                     <Col xs="12" lg="12">
                                         <FormGroup>
                                             <Label className="text-blue"><FontAwesomeIcon icon={faEnvelope} /> Email</Label>
-                                            <small><p>indraawan13@gmail.com</p></small>
+                                            <small><p>{profile.email}</p></small>
                                         </FormGroup>
                                     </Col>
                                     <Col xs="12" lg="12">
                                         <FormGroup>
                                             <Label className="text-blue"><FontAwesomeIcon icon={faPhone} style={{transform: 'rotate(90deg)'}} /> Phone</Label>
-                                            <small><p>+62 888 0941 9292</p></small>
+                                            <small><p>{profile.phone}</p></small>
                                         </FormGroup>
                                     </Col>
                                     <Col xs="12" lg="12">
                                         <FormGroup>
                                             <Label className="text-blue"><FontAwesomeIcon icon={faAddressCard} /> Address</Label>
-                                            <small><p>Cimahi 40522, Jawa Barat, Indonesia <br /> <small><a href="#address" className="text-blue">detail</a></small></p></small>
+                                            <small><p>{profile.address} <br /> <small><a href="#address" className="text-blue">detail</a></small></p></small>
                                         </FormGroup>
                                     </Col>
                                     <Col xs="12" lg="12">

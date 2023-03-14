@@ -5,9 +5,9 @@ import NavbarPartial from '../Partials/NavbarPartial'
 import AboutSection from '../Sections/AboutSection'
 import AchievementSection from '../Sections/AchievementSection'
 import AddressSections from '../Sections/AddressSection'
-import AllSkillSection from '../Sections/AllSkillSection'
+// import AllSkillSection from '../Sections/AllSkillSection'
 import ContactSection from '../Sections/ContactSection'
-import MainSkillSection from '../Sections/MainSkillSection'
+// import MainSkillSection from '../Sections/MainSkillSection'
 import PortofolioSection from '../Sections/PortofolioSection'
 
 function HomePage(prop) {
@@ -36,13 +36,13 @@ function HomePage(prop) {
                 <AchievementSection />
             </section>
             <hr style={hrStyle} />
-            <section className="mb-5">
+            {/* <section className="mb-5">
                 <MainSkillSection />
             </section>
-            <hr style={hrStyle} />
-            <section className="mb-5" id="skill">
+            <hr style={hrStyle} /> */}
+            {/* <section className="mb-5" id="skill">
                 <AllSkillSection />
-            </section>
+            </section> */}
             <hr style={hrStyle} />
             <section className="mb-5" id="address">
                 <AddressSections />

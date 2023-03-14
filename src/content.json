@@ -1,0 +1,33 @@
+{
+    "profile": {
+        "name": "Indra Mulyawan",
+        "nickname": "Indra",
+        "email": "indraawan13@gmail.com",
+        "phone": "088809419292",
+        "address": "Cimahi 40522, Jawa Barat, Indonesia",
+        "description": "Hello I am Indra Mulyawan. I'm a web developer. I have the ability to solve problems as well as a strong desire to learn something. I have experience in web programming for about 3 years. I can also work in a team and also be under pressure.",
+        "role": "Fullstack Programmer",
+        "instagram": "https://www.instagram.com/indmyn",
+        "whatsapp": "https://wa.me/+6288809419292",
+        "facebook": "https://www.facebook.com/profile.php?id=100025276691186",
+        "twitter": "https://twitter.com/inmyone",
+        "telegram": "https://t.me/indra_myn07"
+    },
+    "portfolio": [
+        {
+            "header": "Web Portfolio",
+            "image": "absensi_perusahaan.jpeg",
+            "footer": "Fullstack Programmer"
+        },
+        {
+            "header": "Web Portfolio",
+            "image": "absensi_sekolah.jpeg",
+            "footer": "Fullstack Programmer"
+        },
+        {
+            "header": "Web Portfolio",
+            "image": "online_shop.jpeg",
+            "footer": "Fullstack Programmer"
+        }
+    ]
+}
