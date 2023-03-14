@@ -17,10 +17,10 @@ function AchievementSection() {
                         <CardAchievementComponent title="Praktek Kerja Industri" text="PT INOVASI EDUKASI BANGSA" thumbnail={Achievement1} />
                     </Col>
                     <Col xs="12" md="6" lg="3" className="mb-3">
-                        <CardAchievementComponent title="Sertifikat Kompetensi" text="PT INOVASI EDUKASI BANGSA" thumbnail={Achievement2} />
+                        <CardAchievementComponent title="Sertifikat Kompetensi" text="PT CAKRAWALA GLOBAL YAKSA" thumbnail={Achievement2} />
                     </Col>
                     <Col xs="12" md="6" lg="3" className="mb-3">
-                        <CardAchievementComponent title="Sertifikat Kompetensi" text="PT INOVASI EDUKASI BANGSA" thumbnail={Achievement3} />
+                        <CardAchievementComponent title="Sertifikat Kompetensi" text="BADAN NASIONAL SERTIFIKAT KOMPETENSI" thumbnail={Achievement3} />
                     </Col>
                 </Row>
             </Container>
