@@ -1,12 +1,12 @@
 import React from 'react'
 import { Card, CardHeader, CardBody, CardImg } from 'reactstrap'
 
-function CardPortofolioComponent({ title, thumbnail, description, position, tools }) {
+function CardPortofolioComponent({ title, thumbnail, description, position, tools, type = "web" }) {
     return (
         <>
             <Card style={{ background: '#242526', borderRadius: '10px' }}>
                 <CardHeader className="text-center text-white"> {title} </CardHeader>
-                <CardImg src={thumbnail} style={{ width: "100%", height: 100, objectFit: "contain" }} />
+                <CardImg src={thumbnail} style={{ width: "100%", height: type == "web" ? 200 : 400, objectFit: 'contain'}} />
                 <CardBody className="text-white">
                     <label style={{ fontSize: 12 }}>Description: </label>
                     <p style={{ fontSize: 12 }}>{description}</p>

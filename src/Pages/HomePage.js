@@ -43,10 +43,10 @@ function HomePage(prop) {
             {/* <section className="mb-5" id="skill">
                 <AllSkillSection />
             </section> */}
-            <hr style={hrStyle} />
+            {/* <hr style={hrStyle} />
             <section className="mb-5" id="address">
                 <AddressSections />
-            </section>
+            </section> */}
             <hr style={hrStyle} />
             <section className="mb-5" id="contact">
                 <ContactSection />
