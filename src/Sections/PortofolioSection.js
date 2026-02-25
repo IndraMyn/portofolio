@@ -13,6 +13,7 @@ import PadiUMKM from '../Assets/Portofolio/padiumkm.png'
 import Midnight from '../Assets/Portofolio/midnight.jpg'
 import AstraVirtue from '../Assets/Portofolio/astra_virtue.jpeg'
 import PagiiOrdering from '../Assets/Portofolio/pagii_ordering.png'
+import Dosbim from '../Assets/Portofolio/dosbim.png'
 
 function PortofolioSection(props) {
 
@@ -101,7 +102,7 @@ function PortofolioSection(props) {
                             thumbnail={AbsensiPerusahaan}
                             position="Fullstack Developer"
                             description="Web based employee attendance system using NIP numbers"
-                            tools="Codeigniter 4, MySQL, Bootstrap"
+                            tools="Laravel, MySQL, Bootstrap"
                             badge={badge2} />
                     </Col>
                     <Col xs="12" md="6" lg="3" className="mb-3">
@@ -110,7 +111,7 @@ function PortofolioSection(props) {
                             thumbnail={AbsensiSekolah}
                             position="Fullstack Developer"
                             description="Web based student attendance system using NIS number"
-                            tools="PHP Native, MySQL, Bootstrap"
+                            tools="Laravel, MySQL, Bootstrap"
                             badge={badge3} />
                     </Col>
                     <Col xs="12" md="6" lg="3" className="mb-3">
@@ -150,9 +151,17 @@ function PortofolioSection(props) {
                     <Col xs="12" md="6" lg="3" className="mb-3">
                         <CardPortofolioComponent
                             title="Pagii Ordering" thumbnail={PagiiOrdering}
-                            position="Backend Developer"
+                            position="Fullstack Developer"
                             description="Service provider for retail and F&B in selling the food. Which user can order the product online or directly here"
-                            tools="Java, Java Play, Spring boot, PostgreSQL, Third-party"
+                            tools="Laravel, ReactJs, NextJs, PostgreSQL, Third-party"
+                            badge={badge4} />
+                    </Col>
+                    <Col xs="12" md="6" lg="3" className="mb-3">
+                        <CardPortofolioComponent
+                            title="Pengajuan Dosbim" thumbnail={Dosbim}
+                            position="Fullstack Developer"
+                            description="Web for lecturer's submission for guidance"
+                            tools="Laravel, ReactJs, PostgreSQL"
                             badge={badge4} />
                     </Col>
                     <Col xs="12" md="6" lg="3" className="mb-3">

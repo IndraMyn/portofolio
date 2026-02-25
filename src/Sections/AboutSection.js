@@ -50,7 +50,7 @@ function AboutSection(props) {
                                     </Col>
                                     <Col xs="12" lg="12">
                                         <FormGroup>
-                                            <a href={Resume} target="_blank" rel="noopener noreferrer"><Button className="btn-blue mr-2">Download Resume</Button></a>
+                                            {/* <a href={Resume} target="_blank" rel="noopener noreferrer"><Button className="btn-blue mr-2">Download Resume</Button></a> */}
                                             <a href="#contact"><Button color="dark" outline className="btn-outline-blue">Contact Me</Button></a>
                                         </FormGroup>
                                     </Col>

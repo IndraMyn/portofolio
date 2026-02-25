@@ -1,8 +1,9 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'reactstrap'
-import { faFacebook, faInstagram, faTelegram, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import content from "../content.json";
+import { faMailBulk } from '@fortawesome/free-solid-svg-icons';
 
 function ContactSection(props) {
 
@@ -20,17 +21,8 @@ function ContactSection(props) {
                             <a target="_blank" rel="noopener noreferrer" href={profile.whatsapp} >
                                 <Button className="mr-2 mr-lg-3" outline color="dark" size="lg" style={{borderColor: '#4FCE5D', color: '#4FCE5D'}} ><FontAwesomeIcon icon={faWhatsapp} /></Button>
                             </a>
-                            <a target="_blank" rel="noopener noreferrer" href={profile.telegram} >
-                                <Button className="mr-2 mr-lg-3" outline color="dark" size="lg" style={{borderColor: '#0088CC', color: '#0088CC'}} ><FontAwesomeIcon icon={faTelegram} /></Button>
-                            </a>
-                            <a target="_blank" rel="noopener noreferrer" href={profile.instagram} >
-                                <Button className="mr-2 mr-lg-3" outline color="dark" size="lg" style={{borderColor: '#E1306C', color: '#E1306C'}} ><FontAwesomeIcon icon={faInstagram} /></Button>
-                            </a>
-                            <a target="_blank" rel="noopener noreferrer" href={profile.facebook} >
-                                <Button className="mr-2 mr-lg-3" outline color="dark" size="lg" style={{borderColor: '#3b5998', color: '#3b5998'}} ><FontAwesomeIcon icon={faFacebook} /></Button>
-                            </a>
-                            <a target="_blank" rel="noopener noreferrer" href={profile.twitter} >
-                                <Button className="mr-2 mr-lg-3" outline color="dark" size="lg" style={{borderColor: '#1DA1F2', color: '#1DA1F2'}} ><FontAwesomeIcon icon={faTwitter} /></Button>
+                            <a target="_blank" rel="noopener noreferrer" href={profile.sendemail} >
+                                <Button className="mr-2 mr-lg-3" outline color="dark" size="lg" style={{borderColor: '#0088CC', color: '#0088CC'}} ><FontAwesomeIcon icon={faMailBulk} /></Button>
                             </a>
                         </div>
                     </Col>
